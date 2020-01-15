@@ -7,7 +7,7 @@
   @include('movies.movies', ['movies' => $movies])
 
 
-@include('movies.movies', ['movies' => $movies])
+
 
 
 @if(Auth::id() == $user->id)
