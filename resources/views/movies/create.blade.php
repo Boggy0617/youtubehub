@@ -10,6 +10,7 @@
     </div>
 
         <h2 class="mt-5">動画を登録する</h2>
+        <a href="https://www.youtube.com/?gl=JP&hl=ja" target="_blank" class="button btn btn-info  mt-3">Youtubeへ</a>
 
         {!! Form::open(['route'=>'movies.store']) !!}
             <div class="form-group mt-5">
